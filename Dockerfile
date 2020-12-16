@@ -1,6 +1,6 @@
-FROM alpine:3.9
+FROM alpine:3.12
 
-ENV HUGO_VERSION 0.54.0
+ENV HUGO_VERSION 0.79.0
 ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 RUN apk add --no-cache tar curl libc6-compat libstdc++ \
